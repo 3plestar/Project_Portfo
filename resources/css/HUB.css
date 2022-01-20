@@ -1,11 +1,13 @@
-body {
-    background-image: url('img/HUB\ Pagina\ Achtergrond\ O.png');
-    background-repeat: no-repeat;
-    background-position: center;
+html, body {
+    height: 100%;
     width: 100%;
 }
-
 * {
     margin: 0;
     padding: 0;
+}
+.HUB {
+    background-image: url('img/HUB\ Pagina\ Achtergrond\ O.png');
+    width: 100%;
+    height: 100%;
 }
