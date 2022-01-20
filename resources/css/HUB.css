@@ -18,5 +18,19 @@ h {
     color: white;
     font-size: 60px;
     float: right;
-    right: 0.5%;
+    right: 20%;
+}
+#BJK {
+    position: relative;
+    width:500px;
+    height:68px;
+    top: 15%;
+    background-color:#00ff40;
+}
+#BDB {
+    position: relative;
+    width: 500px;
+    height: 68px;
+    top: 35%;
+    background-color: springgreen;
 }
