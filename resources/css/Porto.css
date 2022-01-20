@@ -1,8 +1,11 @@
 body, html {
     height: 100%;
     margin: 0px;
+    
 }
+
 .background {
+    
     position: absolute;
     background-image: url('img/Portfolio\ Achtergrond\ O.png');
     z-index: -1;
