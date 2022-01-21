@@ -24,10 +24,6 @@ p {
     color: white;
     font-size: 25px;
 }
-#left {
-    text-align: right;
-    top: 60%;
-}
 #BJK {
     position: relative;
     width:500px;
@@ -58,6 +54,7 @@ p {
     height: 68px;
     background-color: rgba(255, 255, 255, 21%);
     border: white 0px;
+    top: 30%;
 }
 
 #BRB {
@@ -66,5 +63,16 @@ p {
     height: 68px;
     background-color: rgba(255, 255, 255, 21%);
     border: white 0px;
+    top: 35%;
+}
+.right1 {
+    position: relative;
+    top: 40%;
+    text-align: right;
+}
+.right2 {
+    position: relative;
+    top: 45%;
+    text-align: right;
 }
 
