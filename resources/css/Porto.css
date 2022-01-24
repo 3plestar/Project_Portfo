@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     margin: 0px;
     
 }
@@ -11,6 +10,7 @@ body, html {
     z-index: -1;
     width: 100%;
     height: 6985px;
+    top: 0px;
   
     background-position: center;
     background-repeat: no-repeat;
@@ -22,11 +22,22 @@ body, html {
       background-color: rgb(75, 62, 90);
   }
 
+  #wie{
+      top: 4000px;
+      position: absolute;
+      color: white;
+  }
+
 /* navigatie */
 .navBar{
+    z-index: 2;
     position:fixed;
-    
+    top: 0px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     background-color: rgb(75, 62, 90);
+}
+
+.navButton{
+ color: white;
 }

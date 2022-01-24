@@ -8,16 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="background"></div>
+    
+    <div class="navBar">
+        <img src="resources/img/Navigatie balk linker gedeelte.png" alt="" height="50px">
+        <button class="navButton" onclick="scrollWie()">Wie ben ik?</button>
+        <button class="navButton" onclick="scrollPort()">Portofolio</button>
+        <button class="navButton" onclick="scrollVis()">Visie</button>
+        <button class="navButton" onclick="scrollCont()">Contact</button>
+     </div>
+
     <div class="container">
-        <div class="navBar">
-           <img src="resources/img/Navigatie balk linker gedeelte.png" alt="" height="50px">
-           <button class="navButton" onclick="scrollWie()">Wie ben ik?</button>
-           <button class="navButton">Portofolio</button>
-           <button class="navButton">Visie</button>
-           <button class="navButton">Contact</button>
-           <script src="resources/navigation.js"></script>
-        </div>
+        <div class="background"></div>
+        
+        <h1 id="wie">
+            Wie ben ik?
+        </h1>
+        <h1 id="port">
+            Portofolio
+        </h1>
+        <h1 id="vis">
+            Visie
+        </h1>
+        <h1 id="cont">
+            Contact
+        </h1>
+        <script src="resources/navigation.js"></script>
     </div>
 </body>
 </html>
