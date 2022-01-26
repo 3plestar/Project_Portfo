@@ -3,9 +3,14 @@ html, body {
     width: 100%;
 }
 #BJK, #BDD, #BIB, #BDO, #BRB {
-    cursor: pointer;
+    cursor: progress;
+}
+#BJK:hover, #BDD:hover, #BIB:hover, #BDO:hover, #BRB:hover {
+    background-color: rgba(255, 255, 255, 50%);
+    text-decoration: underline white;
 }
 * {
+    font-family: Bahnschrift;
     margin: 0;
     padding: 0;
 }
@@ -25,7 +30,7 @@ html, body {
     }
     p {
         color: white;
-        font-size: 25px;
+        font-size: 30px;
     }
     #BJK {
         position: relative;
@@ -66,27 +71,22 @@ html, body {
     .left1 {
         position: relative;
         top: 6%;
-        text-align: center;
     }
     .left2 {
         position: relative;
         top: 9%;
-        text-align: center;
     }
     .left3 {
         position: relative;
         top: 12%;
-        text-align: center;
     }
     .right1 {
         position: relative;
         top: 15%;
-        text-align: center;
     }
     .right2 {
         position: relative;
         top: 18%;
-        text-align: center;
     }
 
 }
@@ -94,79 +94,89 @@ html, body {
 
 @media only screen and (min-width: 1000px){ 
     
-h {
-    position: relative;
-    color: white;
-    font-size: 60px;
-    float: right;
-    right: 20%;
-}
-p {
-    color: white;
-    font-size: 25px;
-}
-#BJK {
-    position: relative;
-    width:550px;
-    height:68px;
-    top: 15%;
-    background-color: rgba(255, 255, 255, 21%);
-    border: white 0px;
-}
-#BDD {
-    position: relative;
-    width: 600px;
-    height: 68px;
-    top: 20%;
-    background-color: rgba(255, 255, 255, 21%);
-    border: white 0px;
-}
-#BIB {
-    position: relative;
-    width: 650px;
-    height: 68px;
-    top: 25%;
-    background-color: rgba(255, 255, 255, 21%);
-    border: white 0px;
-}
-#BDO {
-    position: relative;
-    width: 600px;
-    height: 68px;
-    background-color: rgba(255, 255, 255, 21%);
-    border: white 0px;
-    top: 30%;
-}
+    h {
+        position: relative;
+        color: white;
+        font-size: 70px;
+        float: right;
+        right: 20%;
+    }
+    p {
+        color: white;
+        font-size: 40px;
+    }
+    #BJK {
+        position: relative;
+        width:550px;
+        height:68px;
+        top: 15%;
+        background-color: rgba(255, 255, 255, 21%);
+        border: white 0px;
+        text-align: left;
+        padding-left: 22px;
+    }
+    #BDD {
+        position: relative;
+        width: 600px;
+        height: 68px;
+        top: 20%;
+        background-color: rgba(255, 255, 255, 21%);
+        border: white 0px;
+        text-align: left;
+        padding-left: 22px;
+    }
+    #BIB {
+        position: relative;
+        width: 650px;
+        height: 68px;
+        top: 25%;
+        background-color: rgba(255, 255, 255, 21%);
+        border: white 0px;
+        text-align: left;
+        padding-left: 22px;
+    }
+    #BDO {
+        position: relative;
+        width: 600px;
+        height: 68px;
+        background-color: rgba(255, 255, 255, 21%);
+        border: white 0px;
+        top: 30%;
+        text-align: left;
+        padding-left: 22px;
+    }
 
-#BRB {
-    position: relative;
-    width: 500px;
-    height: 68px;
-    background-color: rgba(255, 255, 255, 21%);
-    border: white 0px;
-    top: 35%;
-}
-.left1 {
-    position: relative;
-    top: 15%;
-}
-.left2{
-    position: relative;
-    top: 20%;
-}
-.left3 {
-    position: relative;
-    top: 25%;
-}
-.right1 {
-    position: relative;
-    top: 30%;
-    text-align: right;
-}
-.right2 {
-    position: relative;
-    top: 35%;
-    text-align: right;
-}
+    #BRB {
+        position: relative;
+        width: 500px;
+        height: 68px;
+        background-color: rgba(255, 255, 255, 21%);
+        border: white 0px;
+        top: 35%;
+        text-align: left;
+        padding-left: 22px;
+    }
+    .left1 {
+        position: relative;
+        top: 15%;
+    }
+    .left2{
+        position: relative;
+        top: 20%;
+    }
+    .left3 {
+        position: relative;
+        top: 25%;
+    }
+    .right1 {
+        position: relative;
+        top: 30%;
+        text-align: right;
+    }
+    .right2 {
+        position: relative;
+        top: 35%;
+        text-align: right;
+    }
 
-}
+}   
