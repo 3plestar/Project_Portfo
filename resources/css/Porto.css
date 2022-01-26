@@ -16,12 +16,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+.container{
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  height: 6985px;
+}
+  
 
-  button {
-      border: none;
-      background-color: rgb(75, 62, 90);
-  }
-
+  /* inhoud */
   .title{
       font-size: 126px;
       color: white;
@@ -33,6 +35,11 @@ body, html {
   }
 
 /* navigatie */
+button {
+    border: none;
+    background-color: rgb(75, 62, 90);
+}
+
 .navBar{
     z-index: 2;
     position:fixed;
