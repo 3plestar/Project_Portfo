@@ -1,70 +1,69 @@
-body, html {
-    margin: 0px;
-    
+body,
+html {
+  margin: 0px;
 }
 
 .background {
-    
-    position: absolute;
-    background-image: url('img/Portfolio\ Achtergrond\ O.png');
-    z-index: -1;
-    width: 100%;
-    height: 6985px;
-    top: 0px;
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-.container{
+  position: absolute;
+  background-image: url("img/Portfolio\ Achtergrond\ O.png");
+  z-index: -1;
+  width: 100%;
+  height: 6985px;
+  top: 0px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
   display: grid;
   grid-template-rows: repeat(5, 1fr);
   height: 6985px;
 }
-  
 
-  /* inhoud */
-  .title{
-      font-size: 126px;
-      color: white;
-      padding-left: 2%;
-  }
+/* inhoud */
+.title {
+  font-size: 126px;
+  color: white;
+  padding-left: 2%;
+}
 
-  .foto{
-      border: 2px solid white;
-  }
+.foto {
+  border: 2px solid white;
+}
 
 /* navigatie */
 button {
-    border: none;
-    background-color: rgb(75, 62, 90);
+  border: none;
+  background-color: rgb(75, 62, 90);
 }
 
-.navBar{
-    z-index: 2;
-    position:fixed;
-    top: 0px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    background-color: rgb(75, 62, 90);
+.navBar {
+  z-index: 2;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: rgb(75, 62, 90);
 }
 
-.navButton{
- color: white;
- font-size: 20px;
+.navButton {
+  color: white;
+  font-size: 20px;
 }
 
-.navButton:hover{
-    background-color: rgb(62, 51, 75);
-    cursor: pointer;
+.navButton:hover {
+  background-color: rgb(62, 51, 75);
+  cursor: pointer;
 }
 
 /* links to social media */
-.logoLink{
-    text-decoration: none;
+.logoLink {
+  text-decoration: none;
 }
 
-.logoLogo{
-    height: 50px;
-    margin: 25px;
+.logoLogo {
+  height: 50px;
+  margin: 25px;
 }
