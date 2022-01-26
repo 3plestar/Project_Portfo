@@ -51,3 +51,13 @@ body, html {
     background-color: rgb(62, 51, 75);
     cursor: pointer;
 }
+
+/* links to social media */
+.logoLink{
+    text-decoration: none;
+}
+
+.logoLogo{
+    height: 50px;
+    margin: 25px;
+}
