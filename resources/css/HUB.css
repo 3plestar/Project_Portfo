@@ -1,16 +1,28 @@
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
+
 * {
     font-family: Bahnschrift;
     margin: 0;
     padding: 0;
 }
-#BJK, #BDD, #BIB, #BDO, #BRB {
-    cursor: progress;
+
+#BJK,
+#BDD,
+#BIB,
+#BDO,
+#BRB {
+    cursor: url('img/hand.png'), auto;
 }
-#BJK:hover, #BDD:hover, #BIB:hover, #BDO:hover, #BRB:hover {
+
+#BJK:hover,
+#BDD:hover,
+#BIB:hover,
+#BDO:hover,
+#BRB:hover {
     background-color: rgba(255, 255, 255, 50%);
     text-decoration: underline white;
 }
@@ -21,41 +33,53 @@ html, body {
     height: 100%;
     background-size: cover;
 }
+
 @media only screen and (max-width: 999px) {
-   
+
     h {
         position: relative;
         color: white;
         font-size: 45px;
         float: auto;
     }
+
     p {
         color: white;
         font-size: 30px;
     }
-    #BJK, #BDD, #BIB, #BDO, #BRB {
+
+    #BJK,
+    #BDD,
+    #BIB,
+    #BDO,
+    #BRB {
         position: relative;
         width: 100%;
-        height:68px;
+        height: 68px;
         background-color: rgba(255, 255, 255, 21%);
         border: white 0px;
     }
+
     .left1 {
         position: relative;
         top: 6%;
     }
+
     .left2 {
         position: relative;
         top: 9%;
     }
+
     .left3 {
         position: relative;
         top: 12%;
     }
+
     .right1 {
         position: relative;
         top: 15%;
     }
+
     .right2 {
         position: relative;
         top: 18%;
@@ -64,8 +88,8 @@ html, body {
 }
 
 
-@media only screen and (min-width: 1000px){ 
-    
+@media only screen and (min-width: 1000px) {
+
     h {
         position: relative;
         color: white;
@@ -73,20 +97,23 @@ html, body {
         float: right;
         right: 20%;
     }
+
     p {
         color: white;
         font-size: 40px;
     }
+
     #BJK {
         position: relative;
-        width:550px;
-        height:68px;
+        width: 550px;
+        height: 68px;
         top: 15%;
         background-color: rgba(255, 255, 255, 21%);
         border: white 0px;
         text-align: left;
         padding-left: 22px;
     }
+
     #BDD {
         position: relative;
         width: 600px;
@@ -97,6 +124,7 @@ html, body {
         text-align: left;
         padding-left: 22px;
     }
+
     #BIB {
         position: relative;
         width: 650px;
@@ -107,6 +135,7 @@ html, body {
         text-align: left;
         padding-left: 22px;
     }
+
     #BDO {
         position: relative;
         width: 600px;
@@ -128,27 +157,32 @@ html, body {
         text-align: left;
         padding-left: 22px;
     }
+
     .left1 {
         position: relative;
         top: 15%;
     }
-    .left2{
+
+    .left2 {
         position: relative;
         top: 20%;
     }
+
     .left3 {
         position: relative;
         top: 25%;
     }
+
     .right1 {
         position: relative;
         top: 30%;
         text-align: right;
     }
+
     .right2 {
         position: relative;
         top: 35%;
         text-align: right;
     }
 
-}   
+}
