@@ -107,11 +107,29 @@ button {
   margin: 25px;
 }
 .fotome{
+  right: 5%;
   position: relative;
   float: right;
   display: block;
   top: 10%;
+  
+}
+.fotovoorbeeld1 {
+  position: relative;
+  float: left;
+  top: 40%;
+  left: 5%;
+}
+.fotovoorbeeld2 {
+  position: relative;
+  float: right;
+  top: 10%;
   right: 5%;
+}
+.fotovoorbeeld3 {
+  position: relative;
+  float: right;
+  top: 65%;
 }
 .preview {
   position: relative;
