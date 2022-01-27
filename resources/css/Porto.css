@@ -26,6 +26,7 @@ html {
   font-size: 115px;
   color: white;
   padding-left: 2%;
+  display: inline-block;
 }
 
 .foto {
@@ -102,4 +103,41 @@ button {
 .logoLogo {
   height: 50px;
   margin: 25px;
+}
+.fotome{
+  position: relative;
+  float: right;
+  display: block;
+  top: 10%;
+}
+.preview {
+  position: relative;
+  text-align: center;
+  top: 25%;
+}
+
+#WBI {
+  color: white;
+  font-size: 25px;
+}
+.WBI {
+  position: relative;
+  width: 75%;
+  left: 5%;
+}
+#visp {
+  color: white;
+  font-size: 25px;
+}
+.visp {
+  position: relative;
+  width: 75%;
+  left: 5%;
+}
+
+#footer {
+  position: relative;
+  color: white;
+  font-size: 15px;
+  left: 5%;
 }
