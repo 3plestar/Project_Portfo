@@ -63,9 +63,21 @@ button {
     position: fixed;
     display: none;
 }
+#navcontainer2{
+    display: none;
+}
+#navcontainer1{
+    display: block;
+}
 
  /* navigatie voor telefoon */
 @media only screen and (max-width: 999px) {
+    #navcontainer2{
+        display: block;
+    }
+    #navcontainer1{
+        display: none;
+    }
     #navToggle{
         display: block;
     }
