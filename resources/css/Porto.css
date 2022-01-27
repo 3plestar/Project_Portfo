@@ -59,6 +59,30 @@ button {
   cursor: pointer;
 }
 
+#navToggle{
+    z-index: 2;
+    position: fixed;
+    display: none;
+}
+
+ /* navigatie voor telefoon */
+@media only screen and (max-width: 999px) {
+    #navToggle{
+        display: block;
+    }
+    .navBar {
+        grid-template-columns: 1fr;
+        display:none;
+    }
+    #navLeftPart{
+        display: none;
+    }
+    .navButton {
+        font-size: 25px;
+        padding: 10px;
+      }
+}
+
 /* links to social media */
 .logoLink {
   text-decoration: none;

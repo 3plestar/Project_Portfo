@@ -17,3 +17,12 @@ function scrollCont() {
     var rect = document.getElementById('cont').getBoundingClientRect();
     window.scrollTo(0, rect.top+window.scrollY-50);
 }
+
+function toggleNav() {
+    if(document.getElementsByClassName('navBar')[0].style.display== "none"|| document.getElementsByClassName('navBar')[0].style.display== ""){
+        document.getElementsByClassName('navBar')[0].style.display= "grid";
+    }
+    else{
+        document.getElementsByClassName('navBar')[0].style.display= "none";
+    }
+}
