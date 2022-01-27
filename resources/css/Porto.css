@@ -17,8 +17,8 @@ html {
 }
 .container {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  height: 6985px;
+  grid-template-rows: repeat(5, 1000px);
+  /* height: 6985px; */
 }
 
 /* inhoud */
