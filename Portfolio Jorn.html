@@ -1,23 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="resources/css/Porto.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" type="text/css" href="resources/css/Porto.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="background"></div>
-    <div class="container">
+  </head>
+  <body>
+      <div id="navContainer1">
         <div class="navBar">
-           <img src="resources/img/Navigatie balk linker gedeelte.png" alt="" height="50px">
-           <button class="navButton" onclick="scrollWie()">Wie ben ik?</button>
-           <button class="navButton">Portofolio</button>
-           <button class="navButton">Visie</button>
-           <button class="navButton">Contact</button>
-           <script src="resources/navigation.js"></script>
-        </div>
+            <img src="resources/img/Navigatie balk linker gedeelte.png" alt="" height="50px" id="navLeftPart"/>
+            <button class="navButton" onclick="scrollWie()">Wie ben ik?</button>
+            <button class="navButton" onclick="scrollPort()">Portofolio</button>
+            <button class="navButton" onclick="scrollVis()">Visie</button>
+            <button class="navButton" onclick="scrollCont()">Contact</button>
+          </div>
+      </div>
+    <div id="navContainer2">
+        <button id="navToggle" onclick="toggleNav()">open</button>
+        <div class="navBar">
+            <img src="resources/img/Navigatie balk linker gedeelte.png" alt="" height="50px" id="navLeftPart"/>
+            <button id="navToggle" onclick="toggleNav()">X</button>
+            <button class="navButton" onclick="scrollWie()">Wie ben ik?</button>
+            <button class="navButton" onclick="scrollPort()">Portofolio</button>
+            <button class="navButton" onclick="scrollVis()">Visie</button>
+            <button class="navButton" onclick="scrollCont()">Contact</button>
+          </div> 
     </div>
-</body>
+    
+      <div class="container">
+        <div class="background"></div>
+      <div class="subcontainer">
+        
+        <h1 class="title" id="top">
+          Jorn <br />
+          Kamps
+        </h1>
+        <div class="fotome">
+          <img src="" alt="me" class="fotome" id="fotoVanJezelf" />
+        </div>
+        <div class="preview">
+          <img src="" alt="preview" class="foto" id="Preview"/>
+          </div>
+      </div>
+
+      <div class="subcontainer">
+        <h1 class="title" id="wie">Wie ben ik?</h1>
+        <div class="WBI">
+          <p id="WBI">
+            
+          </p>
+         </div>
+      </div>
+
+      <div class="subcontainer"> 
+        <h1 class="title" id="port">Portofolio</h1>
+      </div>
+
+      <div class="subcontainer">
+        <h1 class="title" id="vis">Visie</h1>
+        <div class="visp">
+          <p id="visp">
+            
+          </p>
+        </div>
+      </div>
+        <div class="subcontainer">
+          <h1 class="title" id="cont">Contact</h1>
+          <footer>
+            <p id="footer"></p>
+            <p id="footer"></p>
+          <a href="https://www.twitter.com/" target="_blank" class="logoLink">
+          <img src="resources/img/Instagram Logo ww.png" alt="" class="logoLogo"/>
+          </a>
+
+          <!-- <a href="https://www.twitter.com/" target="_blank" class="logoLink"> 
+            <img src="resources/img/GitHub Logo.png" alt="" class="logoLogo" />
+          </a>-->
+
+           <!-- <a href="https://www.twitter.com/" target="_blank" class="logoLink"> 
+            <img src="resources/img/LinkedIn Logo ww.png" alt="" class="logoLogo"/>
+           </a> -->
+
+          <a href="https://www.twitter.com/" target="_blank" class="logoLink">
+            <img src="resources/img/Twitter Logo ww.png" alt="" class="logoLogo"/>
+          </a>
+          </footer>
+        </div>
+
+        <script src="resources/navigation.js"></script>
+      </div>
+  </body>
 </html>
