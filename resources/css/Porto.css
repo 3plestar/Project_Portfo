@@ -2,6 +2,9 @@ body,
 html {
   margin: 0px;
 }
+* {
+  font-family: Bahnschrift;
+}
 
 .background {
   position: absolute;
@@ -139,26 +142,33 @@ button {
 
 #WBI {
   color: white;
-  font-size: 25px;
+  font-size: 50px;
 }
 .WBI {
   position: relative;
   width: 75%;
-  left: 5%;
+  display: inline-block;
+  left: 15%;
+
 }
 #visp {
   color: white;
-  font-size: 25px;
+  font-size: 50px;
 }
 .visp {
   position: relative;
   width: 75%;
+  left: 15%;
+}
+.vis{
+  display: inline-block;
+  position: relative;
   left: 5%;
 }
 
 #footer {
   position: relative;
   color: white;
-  font-size: 15px;
+  font-size: 50px;
   left: 5%;
 }
