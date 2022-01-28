@@ -8,7 +8,7 @@ html {
   background-image: url("img/Portfolio\ Achtergrond\ O.png");
   z-index: -1;
   width: 100%;
-  height: 6985px;
+  height: 5500px;
   top: 0px;
   overflow-x: hidden;
 
@@ -19,7 +19,7 @@ html {
 }
 .container {
   display: grid;
-  grid-template-rows: repeat(5, 1000px);
+  grid-template-rows: repeat(2, 1000px) 1500px repeat(2, 1000px);
   /* height: 6985px; */
 }
 
@@ -29,11 +29,65 @@ html {
   color: white;
   padding-left: 2%;
   display: inline-block;
+ 
 }
 
-.foto {
-  border: 2px solid white;
-}
+.fotome{
+    right: 5%;
+    position: relative;
+    float: right;
+    display: block;
+    top: 10%;
+    
+  }
+  .fotovoorbeeld1 {
+    position: relative;
+    float: left;
+    top: 30%;
+    left: 5%;
+  }
+  .fotovoorbeeld2 {
+    position: relative;
+    float: right;
+    top: 6%;
+    right: 5%;
+  }
+  .fotovoorbeeld3 {
+    position: relative;
+    float: right;
+    top: 55%;
+  }
+  .preview {
+    position: relative;
+    text-align: center;
+    top: 25%;
+  }
+  
+  #WBI {
+    color: white;
+    font-size: 25px;
+  }
+  .WBI {
+    position: relative;
+    width: 75%;
+    left: 5%;
+  }
+  #visp {
+    color: white;
+    font-size: 25px;
+  }
+  .visp {
+    position: relative;
+    width: 75%;
+    left: 5%;
+  }
+  
+  #footer {
+    position: relative;
+    color: white;
+    font-size: 15px;
+    left: 5%;
+  }
 
 /* navigatie */
 button {
@@ -95,6 +149,14 @@ button {
         font-size: 25px;
         padding: 10px;
       }
+
+      /* telefoon inhoud */
+      .background{
+        height: 6985px;
+      }
+      .container {
+        grid-template-rows: repeat(2, 1500px) 2000px 1500px;
+      }
 }
 
 /* links to social media */
@@ -105,60 +167,4 @@ button {
 .logoLogo {
   height: 50px;
   margin: 25px;
-}
-.fotome{
-  right: 5%;
-  position: relative;
-  float: right;
-  display: block;
-  top: 10%;
-  
-}
-.fotovoorbeeld1 {
-  position: relative;
-  float: left;
-  top: 40%;
-  left: 5%;
-}
-.fotovoorbeeld2 {
-  position: relative;
-  float: right;
-  top: 10%;
-  right: 5%;
-}
-.fotovoorbeeld3 {
-  position: relative;
-  float: right;
-  top: 65%;
-}
-.preview {
-  position: relative;
-  text-align: center;
-  top: 25%;
-}
-
-#WBI {
-  color: white;
-  font-size: 25px;
-}
-.WBI {
-  position: relative;
-  width: 75%;
-  left: 5%;
-}
-#visp {
-  color: white;
-  font-size: 25px;
-}
-.visp {
-  position: relative;
-  width: 75%;
-  left: 5%;
-}
-
-#footer {
-  position: relative;
-  color: white;
-  font-size: 15px;
-  left: 5%;
 }
